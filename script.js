@@ -29,7 +29,6 @@ document.addEventListener("DOMContentLoaded", () => {
     });
     
     yesButton.addEventListener("click", () => {
-        const currentSize = parseFloat(window.getComputedStyle(yesButton).fontSize);
-        yesButton.style.fontSize = `${currentSize * 1.5}px`;
+        window.location.href = "yes_page.html";
     });
 });
